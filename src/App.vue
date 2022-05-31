@@ -11,7 +11,7 @@
 
       <P class="font">SUIVEZ NOUS</P>
 
-      <img src="../../logo/kisspng-social-media-facebook-computer-icons-social-networ-like-us-on-facebook-5ac99d251fd3f0 1 (1).svg" alt="">
+      <img src="../logo/logo.svg" alt="">
     </footer>
 
 
