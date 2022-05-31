@@ -83,7 +83,7 @@
      </div>  
      <P class="font-manuale text-sm p-7 text-center">Tout savoir pour ne rien rater</P>
      <a href="/"  class="font-manuale text-xs text-center ml-40 text-gray-100 ">en savoir plus</a>
-<img class="w-[30%] m-auto mt-3 mb-4" src="../../logo/Group 1.svg" alt="">
+<img class="w-[30%] m-auto mt-3 mb-4" src="../../logo/Group1.svg" alt="">
 
     <div class="flex justify-center">
       <div class="bg-purple-800 inline-block p-2 rounded-2xl m-auto mt-3 mb-4">
