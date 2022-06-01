@@ -1,5 +1,5 @@
 <template>
-
+<menuApp></menuApp>
         <div class="relative mt-7 flex justify-center  w-full  gap-2.5 px-7 py-[9px] bg-[#e6f2dd]"
   >
     <p class="flex-grow-0 flex-shrink-0 text-[38px] font-bold text-left text-black">
@@ -78,3 +78,13 @@
 
 
 </template>
+
+<script>
+import trait from '../components/icons/TraitView.vue'
+import menuApp from '../components/menuApp.vue';
+export default {
+  components: {
+menuApp , trait
+  }
+};
+</script>

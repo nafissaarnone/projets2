@@ -10,25 +10,35 @@ module.exports = {
       },
       "fontFamily": {
         "manuale": "Manuale",
-        "codystar": "Codystar"
+        "codystar": "Codystar",
+        "luckiest": "Luckiest Guy",
 
-        // Ici vos familles de polices exportées de Figma
-        // Ne pas oublier de les charger dans '/index.html' !
       },
 
       "fontSize": {
-        "xs": "0.625rem",
-        "sm": "0.75rem",
-        "base": "1.3125rem",
-        "lg": "1.8125rem",
-        "xl": "2rem",
-        "2xl": "2.125rem",
-        "3xl": "2.375rem",
-        "4xl": "3.8125rem"
+        "sm": "0.625rem",
+        "base": "0.75rem",
+        "lg": "1.3125rem",
+        "xl": "1.8125rem",
+        "2xl": "2rem",
+        "3xl": "2.125rem",
+        "4xl": "2.375rem",
+        "5xl": "3.8125rem"
       },
 
+      // Ici vos familles de polices exportées de Figma
+      // Ne pas oublier de les charger dans '/index.html' !
     },
 
+    screens: {
+      'ipad_mini': '744px',
+      'ipad_pro': '1024px',
+      'desktop': '1440px',
+    },
+
+
+
+
   },
-  plugins: [],
+
 }

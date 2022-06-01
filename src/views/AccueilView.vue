@@ -1,11 +1,7 @@
 <template>
   <main>
-    <div>
-      <RouterLink to="/artistes">
-        <p>artistes</p>
-      </Routerlink>
-    </div>
-  
+    
+  <menuApp></menuApp>
     <div class="flex justify-center items-center flex-col">
     <h1 class="text-6xl font-manuale">Alkebulan</h1>
     <p class="text- font-manuale">Découvrez la culture de ces artistes </p>
@@ -26,8 +22,14 @@
   </path>
   
 </svg>
-<p class="relative p-3 w-max" >Paris</p>
-    </div>
+  <p class="relative p-3 w-max" >Paris</p>
+  <rect/>
+</div>
+    
+
+    
+
+
     
 <H4 class="p-8 leading-[7rem]  text-center text-3xl  font-codystar">Le festival de musique afroBeat</H4>
 </div>
@@ -76,13 +78,21 @@
     <p class="font-manuale text-sm p-7 text-center">Venez rencontrer vos artistes</p>
 <a href="/"  class="font-manuale text-xs text-center ml-40 text-gray-100 ">en savoir plus</a>
 
-      <div class="flex justify-center">
+     
+     <!--routerlink pour faire bouton, chemin dsponible dans l'index.js-->
+    
+     <RouterLink to="/programmation">
+
+     <div class="flex justify-center">
       <div class="bg-neutral-500  inline-block p-4 ">
         <h2 class="font-manuale text-xs ">PROGRAMMATION </h2>
       </div>
      </div>  
+     </RouterLink>
+
+
      <P class="font-manuale text-sm p-7 text-center">Tout savoir pour ne rien rater</P>
-     <a href="/"  class="font-manuale text-xs text-center ml-40 text-gray-100 ">en savoir plus</a>
+     <a href="/"  class="font-manuale text-xs text-center  text-gray-100 ">en savoir plus</a>
 <img class="w-[30%] m-auto mt-3 mb-4" src="../../logo/Group1.svg" alt="">
 
     <div class="flex justify-center">
@@ -101,9 +111,11 @@
 <script>
 import trait from '../components/icons/TraitView.vue'
 import menuApp from '../components/menuApp.vue';
+import rect from '../components/rectangleView.vue';
+
 export default {
   components: {
-menuApp
+menuApp, trait, rect,
   }
 };
 </script>

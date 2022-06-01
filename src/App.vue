@@ -5,13 +5,19 @@
   <RouterView />
  </div>
    <footer class="bg-white ">
-      <a href="/"  class="font-manuale text-xs ">NOUS CONTACTER</a>
 
-      <a href="/"  class="font-manuale text-xs ">MENTIONS LÉGALES</a>
+     <hr class="mx-10 my-5 border-black ">
 
-      <P class="font">SUIVEZ NOUS</P>
+     <div class="my-5 flex justify-around">
 
-      <img src="../logo/logo.svg" alt="">
+        <a href="/"  class="font-manuale text-xs ">NOUS CONTACTER</a>
+
+        <a href="/"  class="font-manuale text-xs ">MENTIONS LÉGALES</a>
+     </div>
+
+      <p class="font-luckiest w-max mx-auto">SUIVEZ NOUS</p>
+
+      <img class="mx-auto" src="../logo/logo.svg" alt="">
     </footer>
 
 
@@ -21,6 +27,6 @@
 import IconLogo from "./components/icons/IconLogo.vue";
 import { FilmIcon } from "@heroicons/vue/outline";
 export default {
-  components: { IconLogo, FilmIcon },
+  components: { IconLogo, FilmIcon,  },
 };
 </script>
