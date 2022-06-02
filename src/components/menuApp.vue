@@ -1,6 +1,6 @@
 <template>
-  <nav>
-      <div class="bg-transparent">
+  <nav class="fixed w-screen z-50 bg-green-500">
+      <div>
         <div class="max-w-7xl mx-auto">
             <div class="flex justify-between">
                 <!-- Menu -->
@@ -39,7 +39,7 @@
         </div>
       </div>
       <!-- Menu mobile -->
-      <div class="text-white bg-transparent ipad_pro:hidden" :class="{hidden: menuVisible}">
+      <div class="text-white h-screen ipad_pro:hidden" :class="{hidden: menuVisible}">
       <RouterLink to="/" class="py-2 px-4 hover:font-bold">Accueil</RouterLink>
             <RouterLink to="/artistes" class="block py-2 px-4  bg-transparent">Artistes</RouterLink>
             <RouterLink to="/contact" class="block py-2 px-4  bg-transparent">Contact</RouterLink>

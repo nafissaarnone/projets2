@@ -1,5 +1,5 @@
 <template>
-  
+  <main class="py-36">
   <p class=" mt-8 mb-4 w-full text-[33px] bg-[#e6f2dd] font-bold text-center text-black">
     ARTISTES
   </p>
@@ -24,7 +24,7 @@
         <p class="relative top-[-50px] left-[40px] z-10 w-[100px] bg-white text-center text-[18px] "> dbngogo</p>
       </div>
       <div class="m-1 ">
-        <img src="../../image/beyonce.jpg" alt="beyonce">
+        <img src="../../public/image/img5.jpg " alt="beyonce">
         <p class="relative top-[-50px] left-[10px] z-10 w-[90px] bg-white text-center text-[18px]"> Beyonce</p>
       </div>
     </div>
@@ -39,7 +39,7 @@
       </div>
     </div>
   </div>
-
+</main>
 
 </template>
 

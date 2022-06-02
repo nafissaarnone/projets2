@@ -1,7 +1,6 @@
 <template>
-  <main>
+  <main class="py-36"> <!-- py-36 sur toute les pages etre visible -->
     
-  <menuApp></menuApp>
     <div class="flex justify-center items-center flex-col">
     <h1 class="text-6xl font-manuale">Alkebulan</h1>
     <p class="text- font-manuale">Découvrez la culture de ces artistes </p>
@@ -110,12 +109,11 @@
 
 <script>
 import trait from '../components/icons/TraitView.vue'
-import menuApp from '../components/menuApp.vue';
 import rect from '../components/rectangleView.vue';
 
 export default {
   components: {
-menuApp, trait, rect,
+trait, rect,
   }
 };
 </script>

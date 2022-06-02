@@ -1,4 +1,5 @@
 <template>
+<menuApp/>
 
   <div class="h-screen w-screen overflow-x-hidden bg-gradient-to-b from-lime-500 to-orange-400">
 
@@ -26,7 +27,10 @@
 <script>
 import IconLogo from "./components/icons/IconLogo.vue";
 import { FilmIcon } from "@heroicons/vue/outline";
+import menuApp from "./components/menuApp.vue";
+
+
 export default {
-  components: { IconLogo, FilmIcon,  },
+  components: { IconLogo, FilmIcon, menuApp },
 };
 </script>
