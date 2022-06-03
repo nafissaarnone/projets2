@@ -10,7 +10,7 @@
     </div>
 
 <div></div> 
-      <div class="bg-slate-200 inline-block p-2 rounded-2xl m-auto mt-3 mb-4">
+      <div class="bg-slate-200 inline-block p-2 rounded-2xl ml-9 m-auto mt-3 mb-4">
         <a href="/"  class="font-manuale text-xs ">ENVOYER</a>
       </div>
 
