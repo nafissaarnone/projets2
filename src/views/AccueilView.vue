@@ -80,6 +80,7 @@
      <p class="font-manuale text-sm p-9 text-center">qu'est-ce que le festival Alkebulan? Découvrez notre histoire et nos valeur</p>
      <a href="/"  class="font-manuale text-xs text-center ml-40 text-gray-100 ">en savoir plus</a>
 
+       <RouterLink to="/artistes">
        <div class="relative w-max mx-auto">
       <svg class="absolute top-0 left-0 w-full h-full"
   width="170"
@@ -95,7 +96,7 @@
 </svg>
 <p class="relative p-3 w-max text-black font-extrabold" >Les artistes</p>
     </div>
-    
+    </RouterLink>
     <p class="font-manuale text-sm p-7 text-center">Venez rencontrer vos artistes</p>
 <a href="/"  class="font-manuale text-xs text-center ml-40 text-gray-100 ">en savoir plus</a>
 
