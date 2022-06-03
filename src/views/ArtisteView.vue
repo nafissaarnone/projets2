@@ -13,14 +13,49 @@
   </path>
   
 </svg>
-  <p class="relative p-3 w-max" >Les titres du moment</p>
+  <p class="relative mt-5 p-3 w-max" >Les titres du moment</p>
   <rect/>
 </div>
 
-<div class="justify-between">
+<div class="ml-4 mt-4 flex w-[1000px] gap-5">
 <img src="../../public/image/beyonce.jpg" alt="beyonce">
-<img src="../../public/image/rema2.jpg" alt="beyonce">
+<img src="../../public/image/rema2.jpg" alt="rema">
+<img src="../../public/image/pookie.jpg" alt="pookie">
 </div>
+
+<div class="ml-4 mt-4 flex w-[1000px] gap-5">
+  <img src="../../public/image/burna bor.jpg" alt="">
+  <img src="../../public/image/joro.jpg" alt="">
+</div>
+
+ <div class="relative w-max mx-auto">
+      <svg class="absolute top-0 left-0 w-full h-full"
+  width="170"
+  height="48"
+  viewBox="0 0 170 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  preserveAspectRatio="none"
+>
+  <path d="M16.8229 0H170L158.596 48H0L16.8229 0Z" fill="#FFF8F8" fill-opacity="0.8" class="text-2xl font-extrabold ">
+  </path>
+  
+</svg>
+  <p class="relative mt-5 p-3 w-max" >albums</p>
+  <rect/>
+</div>
+
+<div class="ml-4 mt-4 flex w-[1000px] gap-5">
+<img src="../../public/image/5.jpg" alt="beyonce">
+<img src="../../public/image/4.jpg" alt="rema">
+<img src="../../public/image/2.jpg" alt="pookie">
+</div>
+
+<div class="ml-4 mt-4 flex w-[1000px] gap-5">
+  <img src="../../public/image/1.jpg" alt="">
+  <img src="../../public/image/3.jpg" alt="">
+</div>
+
   <div>
     <h1>Les titres du festival</h1>
     <section>
