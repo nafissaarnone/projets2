@@ -61,19 +61,41 @@
 </div>
      <p class="font-manuale p-28 ml-6 text-xs text-center">Ceux qui ont fait bouger le monde de la musique afrobeat</p>
 
-      <div class="flex justify-center">
-      <div class="bg-neutral-500  inline-block p-4 ">
-        <h2 class="font-manuale text-xs ">LE FESTIVAL </h2>
-      </div>
-     </div>  
+ <div class="relative w-max mx-auto">
+      <svg class="absolute top-0 left-0 w-full h-full"
+  width="170"
+  height="48"
+  viewBox="0 0 170 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  preserveAspectRatio="none"
+>
+  <path d="M16.8229 0H170L158.596 48H0L16.8229 0Z" fill="#FFF8F8" fill-opacity="0.8" class="text-2xl font-extrabold ">
+  </path>
+  
+</svg>
+<p class="relative p-3 w-max text-black font-extrabold" >Le festival</p>
+    </div>
+     
      <p class="font-manuale text-sm p-9 text-center">qu'est-ce que le festival Alkebulan? Découvrez notre histoire et nos valeur</p>
      <a href="/"  class="font-manuale text-xs text-center ml-40 text-gray-100 ">en savoir plus</a>
 
-      <div class="flex justify-center">
-      <div class="bg-neutral-500  inline-block p-4 mt-5 ">
-        <h2 class="font-manuale text-xs ">LES ARTISTES </h2>
-      </div>
-     </div>  
+       <div class="relative w-max mx-auto">
+      <svg class="absolute top-0 left-0 w-full h-full"
+  width="170"
+  height="48"
+  viewBox="0 0 170 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  preserveAspectRatio="none"
+>
+  <path d="M16.8229 0H170L158.596 48H0L16.8229 0Z" fill="#FFF8F8" fill-opacity="0.8" class="text-2xl font-extrabold ">
+  </path>
+  
+</svg>
+<p class="relative p-3 w-max text-black font-extrabold" >Les artistes</p>
+    </div>
+    
     <p class="font-manuale text-sm p-7 text-center">Venez rencontrer vos artistes</p>
 <a href="/"  class="font-manuale text-xs text-center ml-40 text-gray-100 ">en savoir plus</a>
 
@@ -82,16 +104,29 @@
     
      <RouterLink to="/programmation">
 
-     <div class="flex justify-center">
-      <div class="bg-neutral-500  inline-block p-4 ">
-        <h2 class="font-manuale text-xs ">PROGRAMMATION </h2>
-      </div>
-     </div>  
+      <div class="relative w-max mx-auto">
+      <svg class="absolute top-0 left-0 w-full h-full"
+  width="170"
+  height="48"
+  viewBox="0 0 170 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  preserveAspectRatio="none"
+>
+  <path d="M16.8229 0H170L158.596 48H0L16.8229 0Z" fill="#FFF8F8" fill-opacity="0.8" class="text-2xl font-extrabold ">
+  </path>
+  
+</svg>
+<p class="relative p-3 w-max text-black font-extrabold" >Programmation</p>
+    </div>
      </RouterLink>
 
 
      <P class="font-manuale text-sm p-7 text-center">Tout savoir pour ne rien rater</P>
-     <a href="/"  class="font-manuale text-xs text-center  text-gray-100 ">en savoir plus</a>
+     
+     <div class="text-center">
+     <a href=""  class="font-manuale text-xs   text-gray-100 ">en savoir plus</a>
+     </div>
 <img class="w-[30%] m-auto mt-3 mb-4" src="../../logo/Group1.svg" alt="">
 
     <div class="flex justify-center">

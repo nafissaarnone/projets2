@@ -30,9 +30,27 @@
     </div>
 
      <H4 class="p-8 leading-[3rem]  text-center text-2xl  font-codystar">L’AFROBEAT VISITE LA CAPITALE</H4>
-
+<div class="text-center">
       <div class="bg-purple-800 ml-9 inline-block p-2 rounded-2xl m-auto mt-3 mb-4">
         <a href="/"  class="block font-manuale text-xs ">JE VEUX MA PLACE</a>
       </div>
+      </div>
+
+<div class="text-center">
+      <h3 class="font-bold ">Qu’est ce que le festival alkebulan?</h3>
+      </div>
+      <p class="ml-4 mr-4 mt-4 font-manuale text-[14px]">C’est un Festival de musique à caractère afrobeat comprenant des stars internationales tel que Beyonce, mais ce festival à une caractéristique particulière: il recevra uniquement des artistes africain produisant de la musique comportant de l'afrobeats. Aya Nakamura, Rema, Wizkid et bien d’autres encore pourront exposer leur talents à travers ce festival. </p>
+
+
+<div class="flex flex-col items-center">
+<img class="mt-4" src="../../public/image/rond1.png" alt="">
+
+<div class="flex gap-9 mt-7 " >
+<img class="" src="../../public/image/rond2.png" alt="">
+<img class="" src="../../public/image/rond3.png" alt="">
+
+</div>
+</div>
+
 </main>
 </template>

@@ -19,6 +19,7 @@
                     <RouterLink to="/programmation" class="py-5 px-2 hover:font-bold ">Programmation</RouterLink>
                     <RouterLink to="/guide" class="py-5 px-2 hover:font-bold ">guide</RouterLink>
                     <RouterLink to="/Artiste" class="py-5 px-2 hover:font-bold">Playlist</RouterLink>
+                    <RouterLink to="/concert" class="py-5 px-2 hover:font-bold">concert</RouterLink>
                     
                     </div>
 
@@ -47,6 +48,7 @@
             <RouterLink to="/mentionslegale" class="block py-2 px-4  bg-transparent">Mention Légale</RouterLink>
             <RouterLink to="/programmation" class="block py-2 px-4  bg-transparent ">Programmation</RouterLink>
             <RouterLink to="/Artiste" class="block py-2 px-4  bg-transparent ">Playlist</RouterLink>
+            <RouterLink to="/concert" class="block py-2 px-4  bg-transparent ">concert</RouterLink>
       </div>
   </nav>
 
