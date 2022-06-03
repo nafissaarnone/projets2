@@ -5,6 +5,7 @@ import programmationView from '../views/programmationView.vue'
 import guideView from '../views/guideVew.vue'
 import contactView from '../views/contactView.vue'
 import ArtisteView from '../views/ArtisteView.vue'
+import mentionslegaleView from '../views/mentionslegaleView.vue'
 
 
 const router = createRouter({
@@ -15,7 +16,8 @@ const router = createRouter({
     { path: '/programmation', name: 'programmation', component: programmationView },
     { path: '/style-guide', name: 'guide', component: guideView },
     { path: '/contact', name: 'contact', component: contactView },
-    { path: '/Artiste', name: 'Artiste', component: ArtisteView }
+    { path: '/Artiste', name: 'Artiste', component: ArtisteView },
+    { path: '/mentionslegale', name: 'mentionslegale', component: mentionslegaleView }
     // ici les autre routes
   ]
 })

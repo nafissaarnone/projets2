@@ -16,24 +16,128 @@
   <p class="relative p-3 w-max" >Les titres du moment</p>
   <rect/>
 </div>
-    
-<div>
-    <div class="flex justify-between">
-      <div class="m-1 ">
-        <img class="" src="../../public/image/beyonce.jpg" alt="savara">
+
+<div class="justify-between">
+<img src="../../public/image/beyonce.jpg" alt="beyonce">
+<img src="../../public/image/rema2.jpg" alt="beyonce">
+</div>
+  <div>
+    <h1>Les titres du festival</h1>
+    <section>
+      <h2>Modifier la liste des titres</h2>
+      <div>
+          <div>
+              <div>
+                  <span>Nouveau titre</span>
+              </div>
+                <input placeholder="Complétez avec un nom" v-model='nom' required>Nom de la musique
+                <input placeholder="Complétez avec le nom de l'artiste" v-model='artiste' required> Nom de l'artiste
+                <button type="button" @click='createTitres()' title="Création">
+                  <SaveIcon class="w-6 h-6"/>
+                </button>                  
+          </div>
+          <div>
+            <table>
+              <thead>
+                  <tr>
+                    <th scope="col">Id <underline/></th>
+                    <th scope="col">Nom <underline/></th>
+                    <th scope="col">Artiste <underline/></th>
+                    <th scope="col">Actions <underline/></th>
+                  </tr>
+              </thead>
+              <tbody>
+                <tr v-for='titres in listeTitres' :key='titres.id'>
+                  <td>{{titres.id}}</td>
+                  <td>
+                    <input type='text' v-model='titres.nom' />
+                  </td>
+                  <td>
+                    <input type='text' v-model='titres.artiste' />
+                  </td>
+                  <td>
+                    <button @click.prevent="updateTitres(titres)">
+                      <p>Modifier</p>
+                      <PencilAltIcon class="w-10 h-10"/>
+                    </button>
+                    <button @click.prevent="deleteTitres(titres)">
+                      <p>Supprimer</p>
+                      <XIcon class="w-10 h-10"/>
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
       </div>
-      <div class="mr-8">
-        <img src="../../public/image/rema2.jpg" alt="aya">
-      </div>
-    
-    
-    
-    
-    
-    
-    
-    </div>
-    
+    </section>
   </div>
     
 </template>
+
+<script>
+import { SaveIcon, XIcon, PencilAltIcon } from "@heroicons/vue/outline"
+
+import { getFirestore, collection, doc, addDoc, updateDoc, deleteDoc, onSnapshot, query, orderBy } from 'https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js'
+import { getStorage, ref, uploadString } from 'https://www.gstatic.com/firebasejs/9.7.0/firebase-storage.js'
+
+ 
+export default {
+    components:{ SaveIcon, XIcon, PencilAltIcon },
+    data() {
+        return {
+            listeTitres:[],
+            titres:{
+                nom:null,
+                artiste:null,
+            },
+        }
+    },
+
+    mounted(){
+        this.getTitres();
+    },
+
+    methods : {
+
+        async getTitres(){
+            const firestore = getFirestore();
+            const dbTitres = collection(firestore, "titres");          
+            const q = query(dbTitres, orderBy('nom', 'asc'));
+            await onSnapshot(q, (snapshot) => {
+                this.listeTitres = snapshot.docs.map(doc => (
+                    {id:doc.id, ...doc.data()}
+                ))  
+            console.log("Liste des titres", this.listeTitres);      
+            })      
+        },
+
+        async createTitres(){
+          const firestore = getFirestore();
+          const dbTitres = collection(firestore, "titres");
+          const docRef = await addDoc(dbTitres,{
+            nom:this.nom,
+            artiste:this.artiste
+          })
+          console.log("Document créé avec l'id : ", docRef.id);
+        },
+
+        async updateTitres(titres){
+          const firestore = getFirestore();
+          const docRef = doc(firestore, "titres", titres.id);
+          await updateDoc(docRef, {
+            nom:titres.nom,
+            artiste:titres.artiste
+          })       
+        },
+
+        async deleteTitres(titres){
+          const firestore = getFirestore();
+          const docRef = doc(firestore, "titres", titres.id);
+          await deleteDoc(docRef);      
+        },
+
+    }
+    
+}
+</script>
