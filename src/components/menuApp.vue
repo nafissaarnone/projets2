@@ -41,7 +41,7 @@
       <!-- Menu mobile -->
       <div class="text-white h-screen ipad_pro:hidden" :class="{hidden: menuVisible}">
       <RouterLink to="/" class="py-2 px-4 hover:font-bold">Accueil</RouterLink>
-            <RouterLink to="/artistes" class="block py-2 px-4  bg-transparent">Artistes</RouterLink>
+            <RouterLink to="/artistes" class="block py-2 px-4  bg-transparent" >Artistes</RouterLink>
             <RouterLink to="/contact" class="block py-2 px-4  bg-transparent">Contact</RouterLink>
             <RouterLink to="/festival" class="block py-2 px-4  bg-transparent">Festival</RouterLink>
             <RouterLink to="/mentionslegale" class="block py-2 px-4  bg-transparent">Mention Légale</RouterLink>

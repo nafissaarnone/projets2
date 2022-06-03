@@ -20,12 +20,10 @@
 <div>
     <div class="flex justify-between">
       <div class="m-1 ">
-        <img class="" src="../../image/savara.jpg" alt="savara">
-        <p class="relative top-[-50px] left-[40px] z-10 w-[100px] bg-white text-center text-[18px] "> Savara</p>
+        <img class="" src="../../public/image/beyonce.jpg" alt="savara">
       </div>
-      <div class="m-1 ">
-        <img src="../../image/aya.jpg" alt="aya">
-        <p class="relative top-[-50px] left-[40px] z-10 w-[200px] bg-white text-center text-[18px] "> Aya nakamura</p>
+      <div class="mr-8">
+        <img src="../../public/image/rema2.jpg" alt="aya">
       </div>
     
     

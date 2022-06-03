@@ -13,7 +13,7 @@ const router = createRouter({
     { path: '/', name: 'Accueil', component: AccueilView },
     { path: '/artistes', name: 'Artistes', component: artistesView },
     { path: '/programmation', name: 'programmation', component: programmationView },
-    { path: '/guide', name: 'guide', component: guideView },
+    { path: '/style-guide', name: 'guide', component: guideView },
     { path: '/contact', name: 'contact', component: contactView },
     { path: '/Artiste', name: 'Artiste', component: ArtisteView }
     // ici les autre routes

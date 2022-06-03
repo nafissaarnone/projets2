@@ -1,8 +1,7 @@
 <template>
-<menuApp/>
 
   <div class="h-screen w-screen overflow-x-hidden bg-gradient-to-b from-lime-500 to-orange-400">
-
+    <menuApp/>
   <RouterView />
  </div>
    <footer class="bg-white ">
