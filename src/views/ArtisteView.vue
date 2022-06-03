@@ -18,14 +18,14 @@
 </div>
 
 <div class="ml-4 mt-4 flex w-[1000px] gap-5">
-<img src="../../public/image/beyonce.jpg" alt="beyonce">
-<img src="../../public/image/rema2.jpg" alt="rema">
-<img src="../../public/image/pookie.jpg" alt="pookie">
+<img src="/image/beyonce.jpg" alt="beyonce">
+<img src="/image/rema2.jpg" alt="rema">
+<img src="/image/pookie.jpg" alt="pookie">
 </div>
 
 <div class="ml-4 mt-4 flex w-[1000px] gap-5">
-  <img src="../../public/image/burna bor.jpg" alt="">
-  <img src="../../public/image/joro.jpg" alt="">
+  <img src="/image/burnabor.jpg" alt="">
+  <img src="/image/joro.jpg" alt="">
 </div>
 
  <div class="relative w-max mx-auto">
@@ -46,14 +46,14 @@
 </div>
 
 <div class="ml-4 mt-4 flex w-[1000px] gap-5">
-<img src="../../public/image/5.jpg" alt="beyonce">
-<img src="../../public/image/4.jpg" alt="rema">
-<img src="../../public/image/2.jpg" alt="pookie">
+<img src="/image/5.jpg" alt="beyonce">
+<img src="/image/4.jpg" alt="rema">
+<img src="/image/2.jpg" alt="pookie">
 </div>
 
 <div class="ml-4 mt-4 flex w-[1000px] gap-5">
-  <img src="../../public/image/1.jpg" alt="">
-  <img src="../../public/image/3.jpg" alt="">
+  <img src="/image/1.jpg" alt="">
+  <img src="/image/3.jpg" alt="">
 </div>
 
   <div>

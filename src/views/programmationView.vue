@@ -31,9 +31,9 @@
 
 <div class="">
      <div class="flex justify-center md:mx-72">
-       <img class="w-screen " src="../../image/f1.jpg" alt="">
-       <img class="w-screen " src="../../image/f2.jpg" alt="">
-       <img class="w-screen " src="../../image/f3.jpg" alt="">
+       <img class="w-screen " src="/image/f1.jpg" alt="">
+       <img class="w-screen " src="/image/f2.jpg" alt="">
+       <img class="w-screen " src="/image/f3.jpg" alt="">
 
 
      </div>
@@ -101,9 +101,9 @@
 
 <div class="">
      <div class="flex justify-center md:mx-72">
-       <img class="w-screen " src="../../public/image/progra1.jpg" alt="">
-       <img class="w-screen " src="../../public/image/progra2.jpg" alt="">
-       <img class="w-screen " src="../../public/image/progra3.jpg" alt="">
+       <img class="w-screen " src="/image/progra1.jpg" alt="">
+       <img class="w-screen " src="/image/progra2.jpg" alt="">
+       <img class="w-screen " src="/image/progra3.jpg" alt="">
 
 
      </div>
@@ -167,9 +167,9 @@
 
 <div class="">
      <div class="flex justify-center md:mx-72">
-       <img class="w-screen " src="../../public/image/photo3.jpg" alt="">
-       <img class="w-screen " src="../../public/image/photo1.jpg" alt="">
-       <img class="w-screen " src="../../public/image/photo2.jpg" alt="">
+       <img class="w-screen " src="/image/photo3.jpg" alt="">
+       <img class="w-screen " src="/image/photo1.jpg" alt="">
+       <img class="w-screen " src="/image/photo2.jpg" alt="">
 
 
      </div>
@@ -233,9 +233,9 @@
 
 <div class="">
      <div class="flex justify-center md:mx-72">
-       <img class="w-screen " src="../../public/image/p1.png" alt="">
-       <img class="w-screen " src="../../public/image/p2.png" alt="">
-       <img class="w-screen " src="../../public/image/p3.png" alt="">
+       <img class="w-screen " src="/image/p1.png" alt="">
+       <img class="w-screen " src="/image/p2.png" alt="">
+       <img class="w-screen " src="/image/p3.png" alt="">
 
 
      </div>

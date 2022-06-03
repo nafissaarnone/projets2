@@ -6,9 +6,9 @@
 
      <div class="ml-5 gap-5 flex w-[27%]">
 
-       <img src="../../public/image/6.png" alt="1">
-       <img src="../../public/image/7.png" alt="2">
-       <img src="../../public/image/8.png" alt="1">
+       <img src="/image/6.png" alt="1">
+       <img src="/image/7.png" alt="2">
+       <img src="/image/8.png" alt="1">
 
 </div>
  <H4 class="p-8 leading-[3rem]  text-center text-2xl  font-codystar">4 JOURS INCROYABLES</H4>
@@ -43,11 +43,11 @@
 
 
 <div class="flex flex-col items-center">
-<img class="mt-4" src="../../public/image/rond1.png" alt="">
+<img class="mt-4" src="/image/rond1.png" alt="">
 
 <div class="flex gap-9 mt-7 " >
-<img class="" src="../../public/image/rond2.png" alt="">
-<img class="" src="../../public/image/rond3.png" alt="">
+<img class="" src="/image/rond2.png" alt="">
+<img class="" src="/image/rond3.png" alt="">
 
 </div>
 </div>

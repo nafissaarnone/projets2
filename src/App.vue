@@ -17,7 +17,7 @@
 
       <p class="font-luckiest w-max mx-auto">SUIVEZ NOUS</p>
 
-      <img class="mx-auto" src="../logo/logo.svg" alt="">
+      <img class="mx-auto" src="/logo/logo.svg" alt="">
     </footer>
 
 

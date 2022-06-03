@@ -20,16 +20,16 @@
 
 <div class="flex" >
    
-<img class="ml-5" src="../../public/logo/position.svg" alt="position">
+<img class="ml-5" src="/logo/position.svg" alt="position">
 
 <p class="font-manuale mt-5">Hippodrome de Paris Longchamp
 2 route des tribunes, 75016, Paris</p>
 </div>
 
      <div class="flex justify-center md:mx-72">
-       <img class="w-screen " src="../../public/image/imgconcert3.jpg" alt="">
-       <img class="w-screen " src="../../public/image/imgconcert2.jpg" alt="">
-       <img class="w-screen " src="../../public/image/imgconcert1.jpg" alt="">
+       <img class="w-screen " src="/image/imgconcert3.jpg" alt="">
+       <img class="w-screen " src="/image/imgconcert2.jpg" alt="">
+       <img class="w-screen " src="/image/imgconcert1.jpg" alt="">
 
 
      </div>
